@@ -46,7 +46,9 @@ defaults:
 
 excerpt: "This post should display a **header with an overlay image**, if the theme supports it."
 header:
-  overlay_image: unsplash-image-1.jpg
+  overlay_color: "#333"
+  overlay_filter: 0.5 # same as adding an opacity of 0.5 to a black background
+  # overlay_image: unsplash-image-1.jpg
   caption: "Photo credit: [**Unsplash**](https://unsplash.com)"
   cta_label: "More Info"
   cta_url: "https://unsplash.com"
